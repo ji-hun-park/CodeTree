@@ -20,9 +20,9 @@ int main() {
         }
     }
 
-    for (int i = 0; i < MAX_X; i++)
+    for (int i = 0; i <= MAX_X; i++)
     {
-        for (int j = 0; j < MAX_Y; j++)
+        for (int j = 0; j <= MAX_Y; j++)
             if (mat[i][j] == 1)
                 R++;
     }
