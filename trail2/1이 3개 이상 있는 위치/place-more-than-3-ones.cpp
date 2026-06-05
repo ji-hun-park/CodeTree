@@ -22,7 +22,7 @@ int Matrix[MAX_N+1][MAX_N+1];
 
 bool InRange(int i, int j, int n)
 {
-    return (0 <= i && i <= n && 0 <= j && j <= n);
+    return (1 <= i && i <= n && 1 <= j && j <= n);
 }
 
 int main() {
